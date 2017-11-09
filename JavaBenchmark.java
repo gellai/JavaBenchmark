@@ -44,7 +44,7 @@ class JavaBenchmark {
             md = MessageDigest.getInstance("MD5");
         } catch (Exception e) {
             PS.println(e);
-            System.exit(1);
+            System.exit(2);
         }
         
         testNumber = 0;
@@ -57,7 +57,7 @@ class JavaBenchmark {
     private void validateHash() {
         if (!hash.hashString.matches("^[a-zA-Z0-9]*$") || hash.hashString.length() != 32) {
             PS.println("\nInvalid hash!");
-            System.exit(0);
+            System.exit(3);
         }
     }
 
@@ -185,5 +185,7 @@ class JavaBenchmark {
         password = new JavaBenchmark(args[1]); 
         password.modulus = 1;
         password.hashRun();
+        
+        System.exit(0);
     }
 }
