@@ -4,3 +4,5 @@ Benchmarking Java's PrintStream(System.out) influence on the overall processing 
 Usage:
 
 JavaBenchmark hash.txt password.txt
+
+[Read more about the project here](https://github.com/gellai/JavaBenchmark)
