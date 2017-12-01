@@ -5,4 +5,4 @@ Usage:
 
 JavaBenchmark hash.txt password.txt
 
-[Read more about the project here](https://github.com/gellai/JavaBenchmark)
+[Read more about the project here](https://gellai.com/java-processing-speed-test-with-without-printstreamsystem-out/)
