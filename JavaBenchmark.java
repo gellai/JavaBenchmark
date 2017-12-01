@@ -160,7 +160,7 @@ class JavaBenchmark {
 
         if (args.length != 2 || args[0] == null || args[1] == null) {
             PS.print("\nMissing arguments!\n\nUsage:\nJavaBenchmark {Hash File} {Password File}\n");
-            System.exit(0);
+            System.exit(4);
         }
         
         /**
